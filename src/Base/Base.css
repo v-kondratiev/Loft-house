@@ -19,5 +19,15 @@ a:hover {
   padding: 0 15px;
   width: 1140px;
 }
+.container--sm {
+  width: 824px;
+}
+
+.title-2 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  color: #D4C17F;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=Base.css.map */

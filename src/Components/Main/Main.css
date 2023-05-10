@@ -1,5 +1,24 @@
-main {
-  background-color: aqua;
+main .benefits {
+  padding: 120px 0;
+}
+main .benefits__row {
+  display: flex;
+  column-gap: 70px;
+}
+main .benefits__item {
+  text-align: center;
+  max-width: 170px;
+}
+main .benefits__item img {
+  margin-bottom: 53px;
+}
+main .benefits__item-text {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+main .apartments__title {
+  margin-bottom: 88px;
 }
 
 /*# sourceMappingURL=Main.css.map */
