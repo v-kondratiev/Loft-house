@@ -41,11 +41,10 @@ let data = {
         ],
 
         cards: [
-            {id: 1, img: first, title: "first"},
-            {id: 2, img: second, title:"second"},
-            {id: 3, img: third, title:"third"},
-            {id: 4, img: fourth, title:"fourth"}
-
+            {id: 1, img: first, title: "First"},
+            {id: 2, img: second, title:"Second"},
+            {id: 3, img: third, title:"Third"},
+            {id: 4, img: fourth, title:"Fourth"}
         ]
 
     },

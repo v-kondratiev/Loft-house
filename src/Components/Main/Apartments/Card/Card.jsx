@@ -1,11 +1,8 @@
-
-
-const Card = () => {
+const Card = (props) => {
     return (
         <a href="#!"  className="Cards">
-            <img src="" alt=""/>
-            <h3 className="card__title">TITLE</h3>
-
+            <img src={props.img} alt="img"/>
+            <h3 className="card__title">{props.title}</h3>
         </a>
 
     )
