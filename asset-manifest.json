@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Loft-house/static/css/main.b5962cb1.css",
+    "main.js": "/Loft-house/static/js/main.20597e26.js",
+    "static/media/header-bg.jpg": "/Loft-house/static/media/header-bg.18d35a049a889694044e.jpg",
+    "static/media/Rectangle.jpg": "/Loft-house/static/media/Rectangle.3fb40d6a6bfa0690b7b4.jpg",
+    "static/media/video.jpg": "/Loft-house/static/media/video.d2186fbd43e3aceca86a.jpg",
+    "static/media/first.jpg": "/Loft-house/static/media/first.de8b572f6fe63003ac86.jpg",
+    "static/media/third.jpg": "/Loft-house/static/media/third.419098cc5aa604be8526.jpg",
+    "static/media/fourth.jpg": "/Loft-house/static/media/fourth.73d9d3b3f2e101845295.jpg",
+    "static/media/second.jpg": "/Loft-house/static/media/second.d7843d256c4d48163706.jpg",
+    "static/media/fountain.svg": "/Loft-house/static/media/fountain.ec8887e4ac90e8cfc2b9f2ddc8941897.svg",
+    "static/media/bench.svg": "/Loft-house/static/media/bench.19a2d192d7f5ba910b165b5764169b28.svg",
+    "static/media/building.svg": "/Loft-house/static/media/building.4cf7b3aedb293d8c556904ae0d3a22f3.svg",
+    "static/media/logo.svg": "/Loft-house/static/media/logo.a0078d49cce8a4a48d68c5c11d689a83.svg",
+    "static/media/bicycle.svg": "/Loft-house/static/media/bicycle.8aa6365a534af86d9ffaea32070efea2.svg",
+    "static/media/phone.svg": "/Loft-house/static/media/phone.11fa2dc7a5fcac644d0c5d27ba102fb6.svg",
+    "static/media/instagram.svg": "/Loft-house/static/media/instagram.4a6d02536a51f57aecf27ba5b5e6877c.svg",
+    "static/media/map.svg": "/Loft-house/static/media/map.608609752f66f94eb61dc5b65498187e.svg",
+    "static/media/mouse.svg": "/Loft-house/static/media/mouse.0d3bbd8cac7cf126ed75671a35a63274.svg",
+    "static/media/play-button.svg": "/Loft-house/static/media/play-button.57ca7591806fd57fc7603f5e57efe870.svg",
+    "static/media/facebook.svg": "/Loft-house/static/media/facebook.b3e6bc0ce85bd34bf514b4cee3b93d9a.svg",
+    "index.html": "/Loft-house/index.html",
+    "static/media/youtube.svg": "/Loft-house/static/media/youtube.1e93f1539842688e425c95cdc4e13244.svg",
+    "main.b5962cb1.css.map": "/Loft-house/static/css/main.b5962cb1.css.map",
+    "main.20597e26.js.map": "/Loft-house/static/js/main.20597e26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5962cb1.css",
+    "static/js/main.20597e26.js"
+  ]
+}
