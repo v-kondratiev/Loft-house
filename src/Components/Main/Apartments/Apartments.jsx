@@ -8,7 +8,7 @@ const Apartments = (props) => {
                     <h2 className="title-2">Apartments</h2>
                 </div>
 
-                <div className="apartments__cards">
+                <div className="apartments__cards" >
                     {
                         props.cards.map(card=> <Card img={card.img} title={card.title}/>)
                     }

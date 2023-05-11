@@ -11,10 +11,13 @@ const Feedback = () => {
                         We don't share your information with anyone. And we don't keep your number in the database.
                     </p>
 
-                    <input type="text" className="form__input" placeholder="Username"/>
-                    <input type="text" className="form__input" placeholder="Phone number"/>
+                    <input type="text" className="form__input" placeholder="Username" data-aos="fade-up"
+                           data-aos-anchor-placement="center-bottom"/>
+                    <input type="text" className="form__input" placeholder="Phone number" data-aos="fade-down"
+                           data-aos-anchor-placement="center-bottom"/>
 
-                    <button type="submit" className="form__btn">View area</button>
+                    <button type="submit" className="form__btn" data-aos="fade-up"
+                            data-aos-anchor-placement="center-bottom">View area</button>
 
 
                 </form>

@@ -11,12 +11,12 @@ const Header = (props) => {
             <div className="header__top">
                 <div className="container">
                     <div className="header__top-row">
-                        <a href="#">
+                        <a href="#" data-aos="fade-down">
                             <img src={props.logoToProps} alt="Loft House"/>
                         </a>
                         <div className="header__nav">
                             <nav className="nav">
-                                <ul className="nav__list">
+                                <ul className="nav__list" data-aos="fade-down">
                                     {
                                         props.linksToProps.map(el => <li><a href="#!" key={el.id}>{el.name}</a></li>)
                                     }
@@ -28,7 +28,7 @@ const Header = (props) => {
             </div>
 
             <div className="container">
-                <h1 className="header__title">
+                <h1 className="header__title" data-aos="zoom-in">
                     Loft apartments <br/>
                     in the historic center
                 </h1>
@@ -40,7 +40,7 @@ const Header = (props) => {
 
             <div className="header__footer">
                 <div className="container">
-                    <div className="info">
+                    <div className="info" data-aos="fade-up">
 
                         <a href="#section-map">
                             <img src={map} alt=""/>

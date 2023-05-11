@@ -3,7 +3,8 @@ const Benefits = (props) => {
     return (
         <section className="benefits">
             <div className="container container--sm">
-                <div className="benefits__row">
+                <div className="benefits__row" data-aos="fade-up"
+                     data-aos-anchor-placement="center-bottom">
                         {
                            props.items.map(item => <Item img={item.img} description={item.description}/>)
                         }
