@@ -20,5 +20,164 @@ main .benefits__item-text {
 main .apartments__title {
   margin-bottom: 88px;
 }
+main .apartments__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+main .card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+main .card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+}
+main .card::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 3px double rgba(255, 255, 255, 0.4);
+  transition: opacity 0.2s ease-in;
+}
+main .card:hover::after {
+  opacity: 1;
+}
+main .card .card__title {
+  position: absolute;
+  left: 50px;
+  right: 20px;
+  bottom: 44px;
+  font-size: 24px;
+}
+main .cta {
+  padding: 180px 0;
+  background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../../assets/cta/Rectangle.jpg), #C4C4C4;
+}
+main .cta__title {
+  margin-bottom: 17px;
+}
+main .cta__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+main .cta__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+main .cta__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 30px;
+}
+main .form__input {
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  transition: background-color 0.2s ease-in;
+}
+main .form__input::placeholder {
+  color: #BEBEBE;
+}
+main .form__input:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+main .form__btn {
+  height: 50px;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  background-color: #D4C17F;
+}
+main .form__btn:hover {
+  color: #dca314;
+  transition: color 0.2s ease-in;
+}
+main .form__btn:active {
+  position: relative;
+  top: 1px;
+}
+main .form__privacy {
+  text-align: center;
+  font-size: 13px;
+  color: #E7E7E7;
+}
+main .video {
+  text-align: center;
+}
+main .video__link {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+main .video__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 43, 51, 0.8);
+  transition: background-color 0.2s ease-in;
+}
+main .video__link:hover::before {
+  background: rgba(36, 43, 51, 0.7);
+}
+main .video__icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease-in;
+}
+main .video__link:hover .video__icon {
+  transform: translate(-50%, -50%) scale(1.2);
+  filter: saturate(1.5);
+}
+main .section-map {
+  padding: 180px 0;
+}
+main .section-map__title {
+  margin-bottom: 88px;
+}
+main .map {
+  height: 358px;
+  background: #626262;
+}
+main .feedback {
+  padding-bottom: 180px;
+}
+main .feedback__title {
+  margin-bottom: 38px;
+}
+main .feedback__form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  align-items: center;
+}
 
 /*# sourceMappingURL=Main.css.map */

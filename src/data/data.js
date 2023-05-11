@@ -8,11 +8,14 @@ import building from "../assets/benefits/building.svg";
 import fountain from "../assets/benefits/fountain.svg";
 
 ///Apartments///
-
 import first from "../assets/cards/first.jpg";
 import second from "../assets/cards/second.jpg";
 import third from "../assets/cards/third.jpg";
 import fourth from "../assets/cards/fourth.jpg";
+
+///Video///
+
+
 
 
 
@@ -45,6 +48,11 @@ let data = {
             {id: 2, img: second, title:"Second"},
             {id: 3, img: third, title:"Third"},
             {id: 4, img: fourth, title:"Fourth"}
+        ],
+
+        video: [
+            {id: 1, links: "https://www.youtube.com/watch?v=wD6NlS348CQ&ab_channel=NEVERTOOSMALL"}
+
         ]
 
     },

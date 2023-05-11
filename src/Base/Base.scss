@@ -11,13 +11,11 @@ $accent: #D4C17F;
 $white: #fff;
 $footer-bg: #2D343C;
 
-
 body {
   font-family: $font-first;
   background-color: $dark;
   color: $white;
   font-size: 16px;
-
 }
 
 a {
@@ -36,7 +34,6 @@ a {
 
   &--sm {
     width: 824px;
-
   }
 }
 
@@ -45,7 +42,11 @@ a {
   font-family: 'Playfair Display', serif;
   color: #D4C17F;
   font-weight: 700;
+}
 
+.link-bold {
+  color: #D4C17F;
+  font-weight: 700;
 
 }
 
