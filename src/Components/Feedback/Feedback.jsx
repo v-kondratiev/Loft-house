@@ -1,3 +1,4 @@
+import "./Feedback.scss"
 const Feedback = () => {
     return (
         <section className="feedback">
@@ -18,17 +19,10 @@ const Feedback = () => {
 
                     <button type="submit" className="form__btn" data-aos="fade-up"
                             data-aos-anchor-placement="center-bottom">View area</button>
-
-
                 </form>
             </div>
         </section>
-
-
-
-
     )
-
 }
 
 export default Feedback;

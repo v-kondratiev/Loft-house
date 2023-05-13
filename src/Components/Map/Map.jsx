@@ -1,3 +1,4 @@
+import "./Map.scss"
 const Map = () => {
     return (
         <section className="section-map">

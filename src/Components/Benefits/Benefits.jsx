@@ -1,4 +1,5 @@
 import Item from "./Item/Item";
+import "./Benefits.scss"
 const Benefits = (props) => {
     return (
         <section className="benefits">

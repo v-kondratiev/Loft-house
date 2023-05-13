@@ -1,0 +1,80 @@
+.cta {
+  padding: 180px 0;
+  background: linear-gradient(180deg, #242B33 10.42%,
+          rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%),
+  linear-gradient(0deg, rgba(36, 43, 51, 0.9),
+                  rgba(36, 43, 51, 0.9)),
+  url(../../assets/cta/Rectangle.jpg), #C4C4C4;
+}
+
+.cta__title {
+  margin-bottom: 17px;
+}
+
+.cta__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.cta__text  {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cta__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 30px;
+}
+
+.form__input {
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  transition: background-color 0.2s ease-in;
+
+  &::placeholder {
+    color: #BEBEBE;
+  }
+
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.form__btn {
+  height: 50px;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  background-color: #D4C17F;
+
+  &:hover {
+    color: #dca314;
+    transition: color 0.2s ease-in;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.form__privacy {
+  text-align: center;
+  font-size: 13px;
+  color: #E7E7E7;
+}

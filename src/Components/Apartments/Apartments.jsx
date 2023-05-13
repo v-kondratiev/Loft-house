@@ -1,4 +1,5 @@
 import Card from "./Card/Card";
+import "./Apartments.scss"
 const Apartments = (props) => {
     return (
         <section className="apartments">

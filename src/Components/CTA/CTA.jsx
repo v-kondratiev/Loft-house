@@ -1,3 +1,4 @@
+import "./CTA.scss"
 const CTA = () => {
     return (
         <section className="cta">

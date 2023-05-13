@@ -23,10 +23,9 @@ let data = {
             {id: 5, name: "Payments"},
         ],
         logo: logo
-
     },
 
-    main: {
+    benefits: {
         items: [
             {id: 1, img: bench, description: "Nearby historic parks and squares"},
             {id: 2, img: bicycle, description: "6 km bicycle paths"},
@@ -34,18 +33,22 @@ let data = {
             {id: 4, img: fountain, description: "10 fountains on the territory"}
         ],
 
+
+    },
+
+    apartments: {
         cards: [
             {id: 1, img: first, title: "First"},
-            {id: 2, img: second, title:"Second"},
-            {id: 3, img: third, title:"Third"},
-            {id: 4, img: fourth, title:"Fourth"}
-        ],
-
-        video: [
-            {id: 1, links: "https://www.youtube.com/watch?v=wD6NlS348CQ&ab_channel=NEVERTOOSMALL"}
-
+            {id: 2, img: second, title: "Second"},
+            {id: 3, img: third, title: "Third"},
+            {id: 4, img: fourth, title: "Fourth"}
         ]
     },
+
+    video: {
+        links: "https://www.youtube.com/watch?v=wD6NlS348CQ&ab_channel=NEVERTOOSMALL"
+    }
+
 
 }
 

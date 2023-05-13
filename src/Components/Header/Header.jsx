@@ -1,6 +1,4 @@
 import "./Header.scss";
-// import logo from "../../assets/header/logo.svg";
-import mouse from "../../assets/header/mouse.svg";
 import map from "../../assets/header/map.svg";
 import phone from "../../assets/header/phone.svg";
 
