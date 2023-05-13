@@ -32,10 +32,6 @@ const Header = (props) => {
                 </h1>
             </div>
 
-            {/*<a className="header__title-icon" href="#benefits">*/}
-            {/*    <img src={mouse} alt=""/>*/}
-            {/*</a>*/}
-
             <div className="header__footer">
                 <div className="container">
                     <div className="info" data-aos="fade-up">
@@ -50,6 +46,8 @@ const Header = (props) => {
                     </div>
                 </div>
             </div>
+
+
         </header>)
 }
 

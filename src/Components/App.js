@@ -9,7 +9,6 @@ import Video from "./Video/Video";
 import Map from "./Map/Map";
 import Feedback from "./Feedback/Feedback";
 import CTA from "./CTA/CTA";
-
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 

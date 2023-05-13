@@ -17,9 +17,7 @@ const Apartments = (props) => {
 
             </div>
         </section>
-
     )
-
 }
 
 export default Apartments;
