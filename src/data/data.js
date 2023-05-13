@@ -13,15 +13,6 @@ import second from "../assets/cards/second.jpg";
 import third from "../assets/cards/third.jpg";
 import fourth from "../assets/cards/fourth.jpg";
 
-///Video///
-
-
-
-
-
-
-
-
 let data = {
     header: {
         links: [
@@ -54,10 +45,7 @@ let data = {
             {id: 1, links: "https://www.youtube.com/watch?v=wD6NlS348CQ&ab_channel=NEVERTOOSMALL"}
 
         ]
-
     },
-
-
 
 }
 

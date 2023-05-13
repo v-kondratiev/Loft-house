@@ -19,6 +19,7 @@ const App = (props) => {
         <div className="App">
             <Header linksToProps={props.data.header.links} logoToProps={props.data.header.logo} />
             <Main mainToProps={props.data.main} />
+
             <Footer/>
         </div>
     );

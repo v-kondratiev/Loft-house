@@ -20,7 +20,7 @@ a:hover {
   width: 1140px;
 }
 .container--sm {
-  width: 824px;
+  max-width: 824px;
 }
 
 .title-2 {
