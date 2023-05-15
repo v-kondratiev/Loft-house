@@ -2,7 +2,7 @@ import Card from "./Card/Card";
 import "./Apartments.scss"
 const Apartments = (props) => {
     return (
-        <section className="apartments">
+        <section className="apartments" id="apart">
             <div className="container">
 
                 <div className="apartments__title">

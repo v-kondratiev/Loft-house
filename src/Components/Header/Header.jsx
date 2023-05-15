@@ -16,7 +16,7 @@ const Header = (props) => {
                             <nav className="nav">
                                 <ul className="nav__list" data-aos="fade-down">
                                     {
-                                        props.linksToProps.map(el => <li><a href="#!" key={el.id}>{el.name}</a></li>)
+                                        props.linksToProps.map(el => <li><a href={el.href} key={el.id}>{el.name}</a></li>)
                                     }
                                 </ul>
                             </nav>

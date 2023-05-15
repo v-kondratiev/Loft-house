@@ -11,6 +11,10 @@ import Feedback from "./Feedback/Feedback";
 import CTA from "./CTA/CTA";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Accordion from "./Accordion/Accordion";
+
+
+
 
 const App = (props) => {
         AOS.init({duration:  1500});
@@ -22,9 +26,11 @@ const App = (props) => {
                 <Benefits items={props.data.benefits.items}/>
                 <Apartments cards={props.data.apartments.cards}/>
                 <CTA />
-                <Video video={props.video}/>
+                <Video video={props.data.video}/>
                 <Map/>
                 <Feedback />
+                <Accordion sections={props.data.accordionData}/>
+
             </main>
             <Footer/>
         </div>

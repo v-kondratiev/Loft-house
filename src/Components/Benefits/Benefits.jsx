@@ -10,11 +10,8 @@ const Benefits = (props) => {
                            props.items.map(item => <Item img={item.img} description={item.description}/>)
                         }
                 </div>
-
             </div>
-
         </section>
     )
-
 }
 export default Benefits;

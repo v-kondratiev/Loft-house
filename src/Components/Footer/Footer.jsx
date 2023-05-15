@@ -6,7 +6,7 @@ import youtube from "../../assets/footer/youtube.svg"
 import "./Footer.scss";
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" id="footer">
             <div className="container">
                 <div className="footer__grid">
                     <div className="footer__logo">
@@ -21,7 +21,7 @@ const Footer = () => {
                                 <ul className="footer__nav-list">
                                     <li><a href="#!">About</a></li>
                                     <li><a href="#!">Region</a></li>
-                                    <li><a href="#!">Catalogue</a></li>
+                                    <li><a href="#apart">Catalogue</a></li>
                                     <li><a href="#!">Contacts</a></li>
                                     <li><a href="#!">Payments</a></li>
                                 </ul>
@@ -51,7 +51,7 @@ const Footer = () => {
                                 </ul>
 
                                 <ul className="footer__socials">
-                                    <li><a href="#!"><img src={facebook} alt=""/></a></li>
+                                    <li><a href="https://www.facebook.com"><img src={facebook} alt=""/></a></li>
                                     <li><a href="#!"><img src={instagram} alt=""/></a></li>
                                     <li><a href="#!"><img src={youtube} alt=""/></a></li>
                                 </ul>
