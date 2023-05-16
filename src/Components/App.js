@@ -29,7 +29,7 @@ const App = (props) => {
                 <Video video={props.data.video}/>
                 <Map/>
                 <Feedback />
-                <Accordion sections={props.data.accordionData}/>
+                <Accordion sections={props.data.FaQ.accordion}/>
 
             </main>
             <Footer/>
