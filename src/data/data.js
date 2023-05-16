@@ -50,7 +50,6 @@ let data = {
     },
 
     FaQ: {
-
         accordions: [
             {
                 id: 1,
