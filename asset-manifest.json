@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Loft-house/static/css/main.72506600.css",
-    "main.js": "/Loft-house/static/js/main.41f38f35.js",
+    "main.js": "/Loft-house/static/js/main.4b163316.js",
     "static/media/header-bg.jpg": "/Loft-house/static/media/header-bg.18d35a049a889694044e.jpg",
     "static/media/Rectangle.jpg": "/Loft-house/static/media/Rectangle.3fb40d6a6bfa0690b7b4.jpg",
     "static/media/video.jpg": "/Loft-house/static/media/video.d2186fbd43e3aceca86a.jpg",
@@ -22,10 +22,10 @@
     "index.html": "/Loft-house/index.html",
     "static/media/youtube.svg": "/Loft-house/static/media/youtube.1e93f1539842688e425c95cdc4e13244.svg",
     "main.72506600.css.map": "/Loft-house/static/css/main.72506600.css.map",
-    "main.41f38f35.js.map": "/Loft-house/static/js/main.41f38f35.js.map"
+    "main.4b163316.js.map": "/Loft-house/static/js/main.4b163316.js.map"
   },
   "entrypoints": [
     "static/css/main.72506600.css",
-    "static/js/main.41f38f35.js"
+    "static/js/main.4b163316.js"
   ]
 }
