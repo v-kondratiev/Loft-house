@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 750px;
+  background: linear-gradient(180deg, #242B33 11.98%,
+          rgba(45, 52, 60, 0.38) 51.04%,
+          #242B33 92.19%),
+  url(../../assets/header/header-bg.jpg);
+
+  .header__title {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0 100px 0;
+
+
+
+
+
+  }
+
+
+}
+

@@ -3,7 +3,7 @@ import video from "../../assets/video/video.jpg"
 import "./Video.scss"
 const Video = (props) => {
     return (
-        <section className="video">
+        <section className="video" data-aos="zoom-in">
             <div className="container">
                 <a href={props.links} className="video__link">
                     <img src={play} alt="" className="video__icon"/>

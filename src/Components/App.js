@@ -11,6 +11,7 @@ import Feedback from "./Feedback/Feedback";
 import CTA from "./CTA/CTA";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Home from "./Home/Home";
 
 
 
@@ -23,6 +24,7 @@ const App = (props) => {
         <div className="App">
             <Header linksToProps={props.data.header.links} logoToProps={props.data.header.logo} />
             <main className="main">
+                <Home />
                 <Benefits items={props.data.benefits.items}/>
                 <Apartments cards={props.data.apartments.cards}/>
                 <CTA />
