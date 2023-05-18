@@ -33,7 +33,7 @@ const App = (props) => {
                 </Routes>
                 <Benefits items={props.data.benefits.items}/>
                 <CTA />
-                <Feedback />
+                {/*<Feedback />*/}
             </main>
             <Footer/>
         </div>
