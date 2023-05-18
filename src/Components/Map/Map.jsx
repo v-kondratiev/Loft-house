@@ -3,7 +3,7 @@ const Map = () => {
     return (
         <section className="section-map">
             <div className="container">
-                <div className="section-map__title">
+                <div className="section-map__title" data-aos="fade-right" >
                     <h2 className="title-2">Apartments on the map</h2>
                 </div>
 

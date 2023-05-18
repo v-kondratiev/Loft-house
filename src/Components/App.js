@@ -12,6 +12,7 @@ import CTA from "./CTA/CTA";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import Home from "./Home/Home";
+import {Route, Routes} from "react-router-dom";
 
 
 
@@ -24,12 +25,14 @@ const App = (props) => {
         <div className="App">
             <Header linksToProps={props.data.header.links} logoToProps={props.data.header.logo} />
             <main className="main">
-                <Home />
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/apartment" element={<Apartments cards={props.data.apartments.cards}/>}/>
+                    <Route path="/video" element={<Video video={props.data.video}/>}/>
+                    <Route path="/map" element={<Map/>}/>
+                </Routes>
                 <Benefits items={props.data.benefits.items}/>
-                <Apartments cards={props.data.apartments.cards}/>
                 <CTA />
-                <Video video={props.data.video}/>
-                <Map/>
                 <Feedback />
             </main>
             <Footer/>

@@ -1,6 +1,5 @@
 import "./Header.scss";
-import map from "../../assets/header/map.svg";
-import phone from "../../assets/header/phone.svg";
+import {NavLink} from "react-router-dom";
 
 const Header = (props) => {
     console.log(props)
@@ -16,7 +15,7 @@ const Header = (props) => {
                             <nav className="nav">
                                 <ul className="nav__list" data-aos="fade-down">
                                     {
-                                        props.linksToProps.map(el => <li><a href={el.href} key={el.id}>{el.name}</a></li>)
+                                        props.linksToProps.map(el => <li><NavLink to={`${el.route}`} key={el.id}>{el.name}</NavLink></li>)
                                     }
                                 </ul>
                             </nav>

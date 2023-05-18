@@ -3,7 +3,7 @@ const CTA = () => {
     return (
         <section className="cta">
             <div className="container">
-                <div className="cta__title">
+                <div className="cta__title" data-aos="fade-right">
                     <h2 className="title-2">Would you like to see?</h2>
                 </div>
 

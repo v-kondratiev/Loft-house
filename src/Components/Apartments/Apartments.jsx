@@ -5,7 +5,7 @@ const Apartments = (props) => {
         <section className="apartments" id="apart">
             <div className="container">
 
-                <div className="apartments__title">
+                <div className="apartments__title" data-aos="fade-right">
                     <h2 className="title-2">Apartments</h2>
                 </div>
 

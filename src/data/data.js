@@ -16,11 +16,11 @@ import fourth from "../assets/cards/fourth.jpg";
 let data = {
     header: {
         links: [
-            {id: 1, name: "About"},
-            {id: 2, name: "Region"},
-            {id: 3, name: "Catalogue", href: "#apart"},
-            {id: 4, name: "Contacts", href: "#footer"},
-            {id: 5, name: "Payments"},
+            {id: 1, name: "Home", route: "/"},
+            {id: 2, name: "Map",route: "/map"},
+            {id: 3, name: "Catalogue", route: "/apartment"},
+            {id: 4, name: "Video", route: "/video"},
+            {id: 5, name: "Payments", route:"/#"},
         ],
         logo: logo
     },
