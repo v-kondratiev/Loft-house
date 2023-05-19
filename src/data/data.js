@@ -41,7 +41,11 @@ let data = {
             {id: 1, img: first, title: "First"},
             {id: 2, img: second, title: "Second"},
             {id: 3, img: third, title: "Third"},
-            {id: 4, img: fourth, title: "Fourth"}
+            {id: 4, img: fourth, title: "Fourth"},
+            {id: 1, img: first, title: "5"},
+            {id: 2, img: second, title: "6"},
+            {id: 3, img: third, title: "7"},
+            {id: 4, img: fourth, title: "8"}
         ]
     },
 
