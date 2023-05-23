@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Loft-house/static/css/main.0b008cda.css",
-    "main.js": "/Loft-house/static/js/main.c738e030.js",
+    "main.css": "/Loft-house/static/css/main.b92f1161.css",
+    "main.js": "/Loft-house/static/js/main.7f1b3ec6.js",
     "static/media/header-bg.jpg": "/Loft-house/static/media/header-bg.18d35a049a889694044e.jpg",
     "static/media/Rectangle.jpg": "/Loft-house/static/media/Rectangle.3fb40d6a6bfa0690b7b4.jpg",
     "static/media/video.jpg": "/Loft-house/static/media/video.d2186fbd43e3aceca86a.jpg",
@@ -21,11 +21,11 @@
     "static/media/facebook.svg": "/Loft-house/static/media/facebook.b3e6bc0ce85bd34bf514b4cee3b93d9a.svg",
     "index.html": "/Loft-house/index.html",
     "static/media/youtube.svg": "/Loft-house/static/media/youtube.1e93f1539842688e425c95cdc4e13244.svg",
-    "main.0b008cda.css.map": "/Loft-house/static/css/main.0b008cda.css.map",
-    "main.c738e030.js.map": "/Loft-house/static/js/main.c738e030.js.map"
+    "main.b92f1161.css.map": "/Loft-house/static/css/main.b92f1161.css.map",
+    "main.7f1b3ec6.js.map": "/Loft-house/static/js/main.7f1b3ec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b008cda.css",
-    "static/js/main.c738e030.js"
+    "static/css/main.b92f1161.css",
+    "static/js/main.7f1b3ec6.js"
   ]
 }
